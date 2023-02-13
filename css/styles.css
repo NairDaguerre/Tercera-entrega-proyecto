@@ -1,0 +1,168 @@
+
+.logo {
+    display: block;
+    margin: 0 auto;
+    width: 180px;
+}
+
+.menu__nav li {
+    display: inline;
+    margin-right: 1rem;
+}
+.menu__nav {
+    text-align: end;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.menu__nav li a {
+    color: darkorchid;
+    transition: all .3s;
+}
+.menu__nav li a:hover{
+    background-color: lightpink;
+    color: grey;
+    padding: 10px;
+    border-radius: 10%;
+}
+
+h1{
+    color: rgb(252, 252, 252);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+}
+
+#titulo{
+    background-color: rgb(161, 160, 160)
+}
+div{
+    color: darksalmon;
+}
+.carrousel__img{
+    display: flex;
+    display: inline;
+    justify-content: space-evenly;
+    height: 20rem;
+    width: 20rem;    
+}
+
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px;
+    grid-gap: 15rem;
+  }
+  
+  .foto{
+    width: 250px;
+    height: 250px;
+   margin: 1rem 1rem 1rem 1rem;
+   align-items: center;
+}
+
+#titulo{
+    background-image: linear-gradient(to right, grey, white);
+}
+div{
+    color: grey;
+}
+
+.card{
+    background-color: rgb(245, 181, 215);
+    padding: 3rem;
+    /*margin-top: 2rem;
+    margin-bottom: 2rem;*/
+    margin: 2rem 0;
+    width: 200px;
+    max-width: 100%;
+    border: solid 2px grey;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.card__imagen {
+    width: 180px;
+    height: 180px;
+    max-width: 100%;
+  }
+  .card_precio{
+    text-emphasis: bold;
+  }
+
+#productos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 2rem;
+}
+  
+.body-contacto{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 15rem;
+}
+.formulario{
+    display: block;
+    background-color: rgb(245, 185, 165);
+    padding: 3rem;
+    /*margin-top: 2rem;
+    margin-bottom: 2rem;*/
+    margin: 2rem 0;
+    width: 250px;
+    border-radius: 1rem;
+    border: solid 2px grey;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.torta-cumple{
+    width: 400px;
+    height: 380px;
+    display: flex;
+    margin-top: 4rem;
+    margin-left: 10rem;
+    border-radius: 1rem;
+    border: solid 2px gray
+}
+.reset {
+    margin-top: 2rem;
+}
+.submit {
+    margin-top: 2rem;
+}
+.mapa{
+    margin-left: 20rem;
+}
+.texto-mapa{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.header-galeria{
+    background-color: white;
+}
+
+.foto:hover{
+    transform: scale(1.5, 1.5);
+    cursor: pointer;
+}
+.foto{
+    transition: all 1s;
+}
+
+
+.gradiente-lineal{
+    background-image: linear-gradient(to bottom, white,lightpink);
+}
+
+
+.footer{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.rrss{
+    width: 40px;
+    margin-bottom: 5px;
+}
+.rrss1{
+    width: 50px;
+}
+
+
+
+
