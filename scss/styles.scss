@@ -1,0 +1,184 @@
+$color_1: darkorchid;
+$color_2: grey;
+$color_3: rgb(252, 252, 252);
+$color_4: darksalmon;
+$font-family_1: Verdana, Geneva, Tahoma, sans-serif;
+$background-color_1: lightpink;
+$background-color_2: rgb(161, 160, 160);
+$background-color_3: rgb(245, 181, 215);
+$background-color_4: rgb(245, 185, 165);
+$background-color_5: white;
+
+.logo {
+	display: block;
+	margin: 0 auto;
+	width: 180px;
+}
+.menu__nav {
+	li {
+		display: inline;
+		margin-right: 1rem;
+		a {
+			color: $color_1;
+			transition: all .3s;
+			&:hover {
+				background-color: $background-color_1;
+				color: $color_2;
+				padding: 10px;
+				border-radius: 10%;
+			}
+		}
+	}
+	text-align: end;
+	font-family: $font-family_1;
+}
+h1 {
+	color: $color_3;
+	font-family: $font-family_1;
+	font-size: 25px;
+}
+#titulo {
+	background-color: $background-color_2;
+	background-image: linear-gradient(to right, grey, white);
+}
+div {
+	color: $color_4;
+	color: $color_2;
+}
+.carrousel__img {
+	display: flex;
+	display: inline;
+	justify-content: space-evenly;
+	height: 20rem;
+	width: 20rem;
+	overflow-x: scroll;
+	scroll-snap-type: x mandatory;
+}
+.frase-inicio1 {
+	font-family: $font-family_1;
+	text-decoration: solid;
+	text-align: center;
+	font-size: 20px;
+}
+.frase-inicio2 {
+	font-family: $font-family_1;
+	font-size: 15px;
+}
+#wrapper {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
+	grid-gap: 2rem;
+}
+.foto {
+	margin: 1rem 1rem 1rem 1rem;
+	padding: 20px;
+	align-items: center;
+	height: 15rem;
+	width: 15rem;
+	transition: all 1s;
+	&:hover {
+		transform: scale(1.5, 1.5);
+		cursor: pointer;
+	}
+}
+.card {
+	background-color: $background-color_3;
+	padding: 3rem;
+	margin: 2rem 0;
+	width: 200px;
+	max-width: 100%;
+	display: block;
+	border: solid 2px grey;
+	font-family: $font-family_1;
+}
+.card__imagen {
+	width: 180px;
+	height: 180px;
+	max-width: 100%;
+}
+.card_precio {
+	text-emphasis: bold;
+}
+#productos {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-gap: 2rem;
+}
+.body-contacto {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+.formulario {
+	display: block;
+	background-color: $background-color_4;
+	padding: 3rem;
+	max-width: 100%;
+	margin: auto;
+	width: 250px;
+	border-radius: 1rem;
+	border: solid 2px grey;
+	font-family: $font-family_1;
+}
+.mapa {
+	max-width: 100%;
+}
+.torta-cumple {
+	display: block;
+	margin: auto;
+	width: 30rem;
+	border-radius: 1rem;
+	border: solid 2px gray;
+}
+.reset {
+	margin-top: 2rem;
+}
+.submit {
+	margin-top: 2rem;
+}
+.texto-mapa {
+	font-size: 20px;
+	font-family: $font-family_1;
+}
+.nosotros {
+	font-family: $font-family_1;
+	font-size: 15px;
+	text-align: justify;
+}
+.foto-yo {
+	display: block;
+	margin: auto;
+	max-width: 100%;
+	border-radius: 1rem;
+	border: solid 2px gray;
+}
+.header-galeria {
+	background-color: $background-color_5;
+}
+.gradiente-lineal {
+	background-image: linear-gradient(to bottom, white,lightpink);
+}
+.footer {
+	text-align: center;
+	font-family: $font-family_1;
+	font-size: 15px;
+}
+.rrss {
+	width: 40px;
+	margin-bottom: 5px;
+}
+.rrss1 {
+	width: 50px;
+}
+@media screen and (min-width: 768px) {
+	.body {
+		max-width: 100%;
+		flex-direction: column;
+	}
+}
+@media screen and (min-width: 1024px) {
+	.body {
+		max-width: 100%;
+		flex-direction: row;
+	}
+}
