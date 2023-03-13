@@ -68,6 +68,12 @@ div {
   grid-gap: 2rem;
 }
 
+.h2{
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 15px;
+  font-weight: bold;
+}
+
 .foto {
   margin: 1rem 1rem 1rem 1rem;
   padding: 20px;
