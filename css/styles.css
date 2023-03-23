@@ -62,7 +62,6 @@ div {
 }
 
 #wrapper {
-  display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   grid-gap: 2rem;
@@ -93,7 +92,7 @@ div {
   margin: 2rem 0;
   width: 200px;
   max-width: 100%;
-  display: block;
+ 
   border: solid 2px grey;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -109,14 +108,17 @@ div {
 }
 
 #productos {
-  display: grid;
+display: flex;
+flex-wrap: wrap;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 2rem;
 }
 
 .body-contacto {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 100%;
+  
 }
 
 .formulario {
@@ -136,11 +138,14 @@ div {
 }
 
 .torta-cumple {
-  display: block;
+ 
   margin: auto;
   width: 30rem;
   border-radius: 1rem;
   border: solid 2px gray;
+  max-width: 100%;
+ margin-bottom: 2rem;
+ margin-top: 2rem;
 }
 
 .reset {
@@ -198,6 +203,7 @@ div {
     max-width: 100%;
     display: flex;
     flex-direction: column;
+    grid-template-columns: 1fr;
   }
 }
 @media screen and (min-width: 768px) {
